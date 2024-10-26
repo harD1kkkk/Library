@@ -1,0 +1,74 @@
+// Book List && Favorite list
+.book-list,
+.favorite-list {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2
+  lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-10;
+}
+
+.favorite-list {
+  @apply sm:mx-0 mx-5;
+}
+
+// Fetching error
+.error {
+  @apply text-red-500 text-center;
+}
+
+// Fetching success
+.success {
+  @apply text-green-500 text-center;
+}
+
+// User Info
+.custom-modal .ant-modal-body {
+  padding: 20px 40px;
+}
+
+.custom-modal .ant-modal-header {
+  border-bottom: none;
+  text-align: center;
+}
+
+.custom-modal .ant-modal-footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+ul,
+ul li {
+  @apply list-none m-0 p-0 overflow-hidden;
+}
+
+img {
+  @apply object-contain;
+}
+
+input:focus {
+  @apply outline-none;
+}
+
+p,
+input {
+  @apply m-0;
+}
+
+button {
+  @apply cursor-pointer border-none bg-white;
+}
+
+details summary {
+  @apply list-none;
+}
+
+.ant-input-wrapper {
+  @apply h-full;
+}
+.ant-input {
+  @apply h-full;
+}
+
+.ant-btn {
+  height: 100% !important;
+  line-height: auto !important;
+}

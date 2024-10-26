@@ -1,0 +1,62 @@
+.catalog {
+  @apply flex justify-between items-center gap-4
+  x-sm:h-12 h-max rounded-full shadow-md;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+
+  @media (min-width: 514px) {
+    margin-bottom: 20px;
+    padding: 40px 20px;
+  }
+
+  &__add-book-btn {
+    @apply flex items-center justify-center bg-blue-500 
+    text-white rounded-full shadow-lg hover:bg-blue-600 
+    transition-all duration-300 ease-in-out transform hover:scale-105;
+    padding: 12px;
+  }
+
+  &__search-bar {
+    @apply relative flex x-sm:w-60 w-full space-x-1 rounded-full shadow-md;
+    margin-right: 12px;
+  }
+
+  &__search-input {
+    @apply w-full rounded-full focus:outline-none
+    border-none bg-white text-gray-900;
+    padding: 8px 16px;
+  }
+
+  &__search-btn-enter {
+    @apply absolute right-0 -translate-x-2 translate-y-1
+    rounded-full text-white bg-orange-500 dark:bg-blue-500;
+    padding: 8px;
+  }
+
+  &__sort {
+    @apply relative inline-block text-left;
+  }
+
+  &__sort-btn {
+    @apply inline-flex justify-between w-full rounded-lg 
+    text-white font-semibold shadow-lg bg-[#3b82f6] focus:ring-4
+    focus:outline-none focus:ring-[#60a5fa] hover:bg-[#2563eb];
+    padding: 12px 20px;
+  }
+
+  &__sort-icon {
+    @apply transform transition-transform duration-300 flex items-center;
+    margin-left: 8px;
+  }
+
+  &__open-sort {
+    @apply absolute w-full rounded-lg shadow-lg bg-white z-10;
+    margin-top: 8px;
+  }
+
+  &__open-sort-item {
+    @apply block text-gray-900 hover:text-white rounded-lg
+    hover:bg-[#3b82f6] transition-colors duration-200 ease-in-out;
+    padding: 12px 20px;
+  }
+}

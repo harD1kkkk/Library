@@ -1,0 +1,43 @@
+.sign-in,
+.sign-up {
+  @apply font-sans relative h-full;
+
+  .bg-img {
+    @apply absolute top-0 left-0 w-full h-full;
+
+    &__img {
+      @apply w-full h-full object-cover;
+    }
+  }
+
+  &__content {
+    @apply relative flex justify-center items-center h-full sm:p-0 px-3;
+  }
+
+  &__form {
+    @apply bg-white p-8 rounded-lg shadow-md xl:w-2/6 md:w-3/6 container;
+  }
+
+  &__title {
+    @apply text-gray-800 text-3xl font-bold text-center;
+  }
+
+  &__submit {
+    @apply w-full shadow-xl mt-4 py-2.5 px-5 text-sm font-semibold 
+    tracking-wider rounded-md text-white bg-blue-600 
+    hover:bg-blue-700 focus:outline-none transition-all;
+  }
+
+  &__text {
+    @apply text-gray-800 text-sm mt-8 text-center;
+  }
+
+  &__btn {
+    @apply text-blue-500 font-semibold hover:underline ml-1;
+  }
+}
+
+.sign-input-field {
+  @apply w-full bg-transparent text-sm text-gray-800 border-b 
+  border-gray-300 focus:border-blue-500 px-2 py-3 outline-none;
+}

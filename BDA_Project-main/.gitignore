@@ -1,0 +1,73 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific folders
+.vscode/
+.vs/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio auto-generated files
+*.log
+*.tlog
+*.vspx
+*.vspf
+*.vspfs
+*.vspak
+ipch/
+*.vcxproj.user
+*.rsrc.rc
+*.rsrc.res
+.vscode/settings.json
+
+# Crash reports and debug logs
+CrashDumps/
+*.pidb
+*.svclog
+*.opendb
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# DotCover is a code coverage tool
+*.dcov
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# StyleCop
+*.StyleCop
+
+# TeamCity
+_TeamCity*
+
+# DotTrace Profiling
+*.dotTrace
+
+# Rider
+.idea/
+
+# Tooling
+*.dotCover
+*.ncrunchsolution
+*.ncrunchproject
+
+# Other
+*.sln.docstates
